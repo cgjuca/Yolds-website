@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Entre em contato com a Yolds. Estamos aqui para ajudar!">
+    <title>Contato - Yolds</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/yolds-logo.png">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <img src="images/yolds-logo.png" alt="Yolds Logo" class="logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Entre em Contato</h1>
+        <p>Estamos aqui para ajudar! Envie sua mensagem e responderemos em breve.</p>
+    </section>
+
+    <!-- Formulário de Contato -->
+    <section>
+        <h2>Envie sua Mensagem</h2>
+        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+            <div class="form-group">
+                <label for="nome">Nome Completo</label>
+                <input type="text" id="nome" name="nome" required placeholder="Seu nome completo">
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required placeholder="seu@email.com">
+            </div>
+            
+            <div class="form-group">
+                <label for="assunto">Assunto</label>
+                <input type="text" id="assunto" name="assunto" required placeholder="Sobre o que você quer falar?">
+            </div>
+            
+            <div class="form-group">
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" required placeholder="Escreva sua mensagem aqui..."></textarea>
+            </div>
+            
+            <button type="submit" class="btn" style="width: 100%;">Enviar Mensagem</button>
+        </form>
+    </section>
+
+    <!-- Informações de Contato -->
+    <section style="background-color: var(--cinza-claro);">
+        <h2>Outras Formas de Contato</h2>
+        <div class="cards-container">
+            <div class="card" style="text-align: center;">
+                <h3>📧 Email</h3>
+                <p style="font-size: 1.2rem; margin-top: 1rem;">
+                    <a href="mailto:yolds@yolds.com.br" style="color: var(--azul-petroleo); text-decoration: none;">
+                        yolds@yolds.com.br
+                    </a>
+                </p>
+            </div>
+            
+            <div class="card" style="text-align: center;">
+                <h3>📷 Instagram</h3>
+                <p style="font-size: 1.2rem; margin-top: 1rem;">
+                    <a href="https://instagram.com/yolds60" target="_blank" style="color: var(--azul-petroleo); text-decoration: none;">
+                        @yolds60
+                    </a>
+                </p>
+            </div>
+            
+            <div class="card" style="text-align: center;">
+                <h3>📘 Facebook</h3>
+                <p style="font-size: 1.2rem; margin-top: 1rem;">
+                    <a href="https://facebook.com/yolds" target="_blank" style="color: var(--azul-petroleo); text-decoration: none;">
+                        /yolds
+                    </a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Yolds</h3>
+                <p>Jovens de Espírito, Sábios de Experiência</p>
+                <p style="margin-top: 1rem;">A comunidade para quem vive a maturidade com energia.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Links Rápidos</h3>
+                <ul style="list-style: none;">
+                    <li style="margin-bottom: 0.5rem;"><a href="index.html" style="color: white; text-decoration: none;">Home</a></li>
+                    <li style="margin-bottom: 0.5rem;"><a href="sobre.html" style="color: white; text-decoration: none;">Sobre</a></li>
+                    <li style="margin-bottom: 0.5rem;"><a href="blog.html" style="color: white; text-decoration: none;">Blog</a></li>
+                    <li style="margin-bottom: 0.5rem;"><a href="contato.html" style="color: white; text-decoration: none;">Contato</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contato</h3>
+                <p>Email: yolds@yolds.com.br</p>
+                <div class="social-links">
+                    <a href="https://instagram.com/yolds60" target="_blank" title="Instagram">📷</a>
+                    <a href="https://facebook.com/yolds" target="_blank" title="Facebook">📘</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Yolds. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
