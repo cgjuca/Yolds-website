@@ -85,5 +85,40 @@
 - [x] Atualizar preços na página cursos.html
 - [x] Atualizar preços na index.html (Home)
 - [x] Atualizar preços nos banners do blog.html
-- [ ] Gerar arquivo ZIP com preços corrigidos
+- [x] Gerar arquivo ZIP com preços corrigidos
+
+
+
+## Melhorias Visuais - Design System
+
+### Logo em Destaque
+- [x] Aumentar logo no cabeçalho (header)
+- [x] Adicionar logo grande na hero section de cada página
+- [x] Criar impacto visual imediato com a marca
+
+### Consistência Visual
+- [x] Padronizar botões (tamanho, estilo, hover, cores)
+- [x] Unificar cards (estrutura, espaçamento, sombras, bordas)
+- [x] Estabelecer sistema de espaçamento consistente
+- [x] Padronizar ícones (mesmo estilo e tamanho)
+- [x] Unificar paleta de cores secundárias
+
+### Hierarquia Visual
+- [x] Melhorar contraste e legibilidade
+- [x] Otimizar tamanhos de fonte
+- [x] Criar destaque para CTAs (Call-to-Actions)
+
+
+
+### Correções de Links
+- [x] Atualizar link do Facebook em todas as páginas
+
+
+
+## Correção Logo Branco na Hero Section
+
+- [x] Criar versão branca do logo (yolds-logo-white.png)
+- [x] Atualizar HTML para usar logo branco na hero section
+- [x] Remover filtro CSS que causava quadrado branco
+- [ ] Testar visualização local
 
