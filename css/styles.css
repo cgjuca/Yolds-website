@@ -1,0 +1,276 @@
+/* Yolds Website - Identidade Visual */
+
+:root {
+  /* Cores da marca Yolds */
+  --azul-petroleo: #008080;
+  --terracota: #E2725B;
+  --dourado: #FFD700;
+  --cinza-claro: #F5F5F5;
+  --branco: #FFFFFF;
+  --texto-escuro: #333333;
+  
+  /* Tipografia */
+  --font-principal: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --font-tamanho-base: 18px; /* Maior para público 60+ */
+  --font-tamanho-titulo: 2.5rem;
+  --font-tamanho-subtitulo: 1.8rem;
+  
+  /* Espaçamentos */
+  --espacamento-pequeno: 1rem;
+  --espacamento-medio: 2rem;
+  --espacamento-grande: 4rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-principal);
+  font-size: var(--font-tamanho-base);
+  line-height: 1.7;
+  color: var(--texto-escuro);
+  background-color: var(--branco);
+}
+
+/* Header */
+header {
+  background-color: var(--branco);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 60px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--azul-petroleo);
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: var(--terracota);
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, var(--azul-petroleo) 0%, #006666 100%);
+  color: var(--branco);
+  padding: var(--espacamento-grande) 2rem;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: var(--font-tamanho-titulo);
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.hero p {
+  font-size: 1.3rem;
+  max-width: 800px;
+  margin: 0 auto 2rem;
+  line-height: 1.8;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  background-color: var(--terracota);
+  color: var(--branco);
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #d15a45;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(226, 114, 91, 0.3);
+}
+
+/* Sections */
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--espacamento-grande) 2rem;
+}
+
+h2 {
+  font-size: var(--font-tamanho-subtitulo);
+  color: var(--azul-petroleo);
+  margin-bottom: var(--espacamento-medio);
+  text-align: center;
+}
+
+/* Cards */
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.card {
+  background: var(--branco);
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.card h3 {
+  color: var(--terracota);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+  background-color: var(--azul-petroleo);
+  color: var(--branco);
+  padding: 3rem 2rem 2rem;
+  margin-top: 4rem;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 3rem;
+}
+
+.footer-section h3 {
+  color: var(--dourado);
+  margin-bottom: 1rem;
+}
+
+.social-links {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.social-links a {
+  color: var(--branco);
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: var(--dourado);
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(255,255,255,0.2);
+}
+
+/* Form */
+form {
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: var(--azul-petroleo);
+}
+
+input, textarea {
+  width: 100%;
+  padding: 1rem;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: var(--font-principal);
+  transition: border-color 0.3s ease;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: var(--azul-petroleo);
+}
+
+textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  :root {
+    --font-tamanho-titulo: 2rem;
+    --font-tamanho-subtitulo: 1.5rem;
+  }
+  
+  nav ul {
+    gap: 1.5rem;
+  }
+  
+  nav a {
+    font-size: 1rem;
+  }
+  
+  .hero {
+    padding: 3rem 1.5rem;
+  }
+  
+  section {
+    padding: 3rem 1.5rem;
+  }
+  
+  .cards-container {
+    grid-template-columns: 1fr;
+  }
+}
+
