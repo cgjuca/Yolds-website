@@ -139,5 +139,5 @@ Para adicionar novos posts ao blog ou fazer alterações no site:
 
 ---
 
-**© 2025 Yolds. Todos os direitos reservados.**
+**© 2025 Yolds. Todos os direitos reservados.***
 
