@@ -67,3 +67,23 @@
 - [x] Adicionar links de fonte/referência
 - [x] Relacionar produtos afiliados relevantes aos novos posts
 
+
+
+## Novos Produtos Afiliados - Lote 2
+
+- [x] Analisar 6 novos produtos (preço, categoria, descrição)
+- [x] Adicionar produtos à página cursos.html
+- [x] Atualizar seção de produtos na Home
+- [x] Relacionar produtos aos posts do blog
+- [x] Verificar preços corretos (canto superior direito)
+
+
+
+## Correção de Preços dos Produtos
+
+- [x] Ler CSV com valores corretos fornecido pelo usuário
+- [x] Atualizar preços na página cursos.html
+- [x] Atualizar preços na index.html (Home)
+- [x] Atualizar preços nos banners do blog.html
+- [ ] Gerar arquivo ZIP com preços corrigidos
+
