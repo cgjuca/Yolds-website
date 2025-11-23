@@ -33,6 +33,28 @@
 - [x] Performance e carregamento
 - [x] Acessibilidade para público 60+ (fonte maior, contraste, espaçamento)
 
+## Novas Funcionalidades - Produtos Afiliados
+
+### Página Cursos
+- [x] Criar página cursos.html com cards de produtos
+- [x] Organizar produtos por categorias (Saúde, Viagens, Desenvolvimento)
+- [x] Adicionar informações de preço, garantia e benefícios
+- [x] Incluir botões de compra com links de afiliado
+
+### Integração na Home
+- [x] Adicionar seção "Cursos Recomendados" na página inicial
+- [x] Destacar 2-3 produtos principais
+- [x] Criar CTAs atrativos
+
+### Integração no Blog
+- [x] Adicionar banners de produtos relacionados aos posts
+- [x] Relacionar Dança 60+ e Vida Plena com posts de saúde
+- [x] Relacionar Guia de Viagens com post sobre viajar
+
+### Navegação
+- [x] Adicionar item "Cursos" no menu principal
+- [x] Atualizar footer com link para Cursos
+
 ## Bugs Conhecidos
 (nenhum no momento)
 
